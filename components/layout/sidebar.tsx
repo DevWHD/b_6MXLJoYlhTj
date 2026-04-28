@@ -12,6 +12,7 @@ import {
   Phone,
   LogOut,
   Activity,
+  Utensils,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useAuth } from "@/contexts/auth-context"
@@ -30,6 +31,7 @@ const navItems = [
   { href: "/escalas", label: "Escalas de Plantão", icon: Calendar },
   { href: "/setores", label: "Setores", icon: Building2 },
   { href: "/documentos", label: "Documentos", icon: FolderOpen },
+  { href: "/cardapio", label: "Cardápio do Dia", icon: Utensils },
   { href: "/urgentes", label: "Comunicados Urgentes", icon: AlertTriangle },
   { href: "/contatos", label: "Contatos", icon: Phone },
 ]

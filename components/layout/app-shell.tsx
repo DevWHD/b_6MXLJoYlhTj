@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, MessageSquare, Calendar, AlertTriangle, Phone } from "lucide-react"
+import { Home, MessageSquare, Calendar, AlertTriangle, Phone, Utensils } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Sidebar } from "@/components/layout/sidebar"
 import { Topbar } from "@/components/layout/topbar"
@@ -11,8 +11,8 @@ import { Topbar } from "@/components/layout/topbar"
 const mobileNav = [
   { href: "/", label: "Início", icon: Home },
   { href: "/avisos", label: "Avisos", icon: MessageSquare },
+  { href: "/cardapio", label: "Cardápio", icon: Utensils },
   { href: "/escalas", label: "Escalas", icon: Calendar },
-  { href: "/urgentes", label: "Urgentes", icon: AlertTriangle },
   { href: "/contatos", label: "Contatos", icon: Phone },
 ]
 
